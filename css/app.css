@@ -1,0 +1,91 @@
+body {
+  font-family: centrale_sans_cyr, tahoma, arial, helvetica, sans-serif;
+}
+
+@media (min-width: 960px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 960px;
+  }
+}
+.main-banner .logo {
+  display: block;
+  height: 51px;
+}
+.main-banner .logo .p-n02v3__brand {
+  position: absolute;
+  z-index: 20;
+  top: 0;
+  width: 98px;
+  height: 45px;
+  filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.5));
+}
+.main-banner .logo .p-n02v3__shapegradient {
+  position: relative;
+  transition: height 400ms ease;
+  height: 35px;
+  margin-top: 16px;
+  background: linear-gradient(to right, #006b34 0, #5f9920 100%);
+}
+.main-banner .logo:hover .p-n02v3__shapegradient {
+  transition: height 400ms ease;
+  height: 56px;
+}
+.main-banner .logo .p-n02v3__shapegradient .p-body-copy-03 {
+  position: absolute;
+  bottom: 6px;
+  left: 7px;
+  right: 5px;
+  color: #fff;
+  font: 9px "GillSans";
+}
+.main-banner .logo .p-n02v3__philips {
+  position: absolute;
+  z-index: 20;
+  top: 15px;
+  left: 7px;
+  width: 85px;
+}
+.main-banner .logo .p-n02v3__philips img {
+  position: absolute;
+}
+.main-banner .logo .p-n02v3__shapetop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 98px;
+  height: 45px;
+}
+.main-banner .bg-img {
+  background-color: #5f9920;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.main-banner .bg-img img {
+  width: 50%;
+  top: 0;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+.main-banner .img-fon {
+  width: 66%;
+}
+.main-banner .fon-text {
+  position: relative;
+  display: flex;
+}
+.main-banner .fon-text span {
+  font-size: 40px;
+  line-height: 66px;
+  color: #fff;
+}
+.main-banner .main img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+/*# sourceMappingURL=app.css.map */

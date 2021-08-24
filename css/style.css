@@ -1,0 +1,106 @@
+body {
+    font-family: centrale_sans_cyr, tahoma, arial, helvetica, sans-serif;
+}
+
+@media (min-width: 960px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 960px;
+    }
+}
+
+.p-n02v3 .p-n02v3__shapelink {
+    display: block;
+    height: 51px;
+}
+
+.p-n02v3__brand {
+    position: absolute;
+    z-index: 20;
+    top: 0;
+    width: 98px;
+    height: 45px;
+    filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.5));
+}
+
+.p-n02v3__shapegradient {
+    position: relative;
+    transition: height 400ms ease;
+    height: 35px;
+    margin-top: 16px;
+    background: linear-gradient(to right, #006b34 0, #5f9920 100%)
+}
+
+.p-n02v3__shapelink:hover .p-n02v3__shapegradient {
+    transition: height 400ms ease;
+    height: 56px;
+}
+
+.p-n02v3__shapegradient .p-body-copy-03 {
+    position: absolute;
+    bottom: 6px;
+    left: 7px;
+    right: 5px;
+    color: #fff;
+    font: 9px "GillSans";
+}
+
+.p-n02v3__philips {
+    position: absolute;
+    z-index: 20;
+    top: 15px;
+    left: 7px;
+    width: 85px;
+}
+
+.p-n02v3__philips img {
+    position: absolute;
+}
+
+.p-n02v3__shapetop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 98px;
+    height: 45px;
+}
+
+/*.block {*/
+/*    background-color: #5b8f22;*/
+/*    width: 50%;*/
+/*}*/
+
+.img-fon {
+    width: 66%
+}
+
+.fon-text {
+    height: 100%;
+    line-height: 52px;
+
+}
+
+.fon-text span {
+    font-size: 40px;
+    line-height: 66px;
+    color: #fff;
+}
+
+img.bg {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.main img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+
+
